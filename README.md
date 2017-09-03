@@ -8,6 +8,8 @@ I used Google's Inception (2015) model. Inception is a deep convolutional neural
 # Repository structure
 You can take a look at the training images in /dataset/fastfood/
 You can use some images to test this model's prediction. 
+# Requirements
+* Docker
 
 # Getting started / How-to build your own Image Classifier
 1. Download and install Docker Toolbox
@@ -34,3 +36,12 @@ Example: mv D:/burger .
     > --output_labels=/dataset/retrained_labels.txt \
     > --image_dir /dataset/fastfood
 13. To classify an image run: python /dataset/label_image.py /path/to/image    
+
+# Example of result I got for classifying a new image
+  > burger (score = 0.97235)
+  
+  > hotdog (score = 0.02228)
+  
+  > pizza (score = 0.00537)
+  
+  I provided the classifier with a new image of a burger that wasn't present in its training dataset and it correctly classified it as a burger with a score of 0.97235.
