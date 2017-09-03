@@ -3,14 +3,15 @@ This is a TensorFlow Image Classifier to recognize if a given image is either a 
 
 This is a detailed tutorial on how to build the TensorFlow Image Classifier that I created.
 
-I used Google's Inception (2015) model. Inception is a deep convolutional neural network built for classifying real world images of thousand category.
+I used Google's Inception (2015) model. Inception is a deep convolutional neural network built for classifying real world images of a thousand categories.
 
 # Repository structure
 You can take a look at the training images in /dataset/fastfood/
 You can use some images to test this model's prediction. 
 # Requirements
 * Docker
-
+# Dropbox link to download the files for my fastfood image classifier
+https://www.dropbox.com/sh/ktyikjplao38nbw/AADOJ_XxUZGFfkqDg3fLQ2jSa?dl=0
 # Getting started / How-to build your own Image Classifier
 1. Download and install Docker Toolbox
 2. Open docker and install the TensorFlow Image by typing the following command: docker run -it gcr.io/tensorflow/tensorflow:latest-devel
