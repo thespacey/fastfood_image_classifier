@@ -38,7 +38,7 @@ Example: mv D:/burger .
     > --image_dir /dataset/fastfood
 13. To classify an image run: python /dataset/label_image.py /path/to/image    
 
-# Example of result I got for classifying a new image
+# Example of a result I got for classifying a new image
   > burger (score = 0.97235)
   
   > hotdog (score = 0.02228)
