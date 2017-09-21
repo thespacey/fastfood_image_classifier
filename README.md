@@ -26,7 +26,7 @@ Example: mv D:/burger .
    You can check if the files where moved by typing: ls dataset/fastfood/
 8. Type: cd dataset and then: vi label_image.py to open a blank python file, type i to modify it and copy/paste the code from the corresponding file in my repository, click on 'esc' and type :wq and then click 'enter' to save the changes.(This script will be used to classify an image at the end)
 9. Now cd to go back to the home directory
-10. Type: docker run -it -v ~/dataset/:/dataset/ gcr.io/tensorflow/tensorflow:latest-devel (This step will link the Tensorflow image to your docker contained)
+10. Type: docker run -it -v ~/dataset/:/dataset/ gcr.io/tensorflow/tensorflow:latest-devel (This step will link the Tensorflow image to your docker container)
 11. Download the training script by doing the following: cd /tensorflow and run: git pull (This will allow to retrain the inception classifier with the newely linked fastfood image dataset)
 12. To retrain the model run the following:
     python tensorflow/examples/image_retraining/retrain.py \
